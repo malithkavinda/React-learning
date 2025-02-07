@@ -4,7 +4,6 @@ import {orderPizza} from "./Redux";
 import {connect} from "react-redux"
 
 function PizzaBox(props) {
-    console.log(props)
   return (
     <div>
       <h2>Number of pizza available - {props.pizzaBase}</h2>
@@ -15,7 +14,7 @@ function PizzaBox(props) {
 
 const mapStatetoProps = (state) => {
   return {
-    pizzaBase: state.pizzaBase,
+    pizzaBase: state.pizza.pizzaBase,
   };
 };
 

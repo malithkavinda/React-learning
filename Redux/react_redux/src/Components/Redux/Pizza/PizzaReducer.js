@@ -17,5 +17,4 @@ const pizzaReducer = (state = initialState, action) => {
   }
 };
 
-
 export default pizzaReducer; 
