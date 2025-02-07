@@ -1,7 +1,7 @@
-import { ORDER_BURGER } from "./BurgerType"
+import { ORDER_BURGER } from "./BurgerType";
 
-export const orderBurger = () =>{
-    return{
-        type : ORDER_BURGER
-    }
-}
+export const orderBurger = () => {
+  return {
+    type: ORDER_BURGER,
+  };
+};
