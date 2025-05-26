@@ -1,4 +1,4 @@
-import ORDER_PIZZA from "./PizzaType,js";
+import { ORDER_PIZZA } from "./PizzaType";
 
 const initialState = {
   pizzaBase: 1000,
